@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.schoolproject.gigs.profileFragment">
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Profile"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/profile"
+        android:layout_marginBottom="-161dp"
+        android:text="Logout"
+        android:background="@drawable/custom_button_login"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="228dp"
+        android:layout_height="228dp"
+        android:layout_above="@+id/profile"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="118dp"
+        app:cardCornerRadius="250dp">
+
+        <ImageView
+            android:id="@+id/pfp"
+            android:layout_width="228dp"
+            android:layout_height="228dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_baseline_person_24" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

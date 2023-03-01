@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="0dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp"
+    app:cardMaxElevation="2dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/frontLayout"
+            android:layout_width="350dp"
+            android:layout_height="400dp">
+
+            <Button
+                android:id="@+id/edit"
+                android:layout_marginTop="3dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/baseline_edit_24" />
+
+            <TextView
+                android:textSize="30sp"
+                android:id="@+id/frontText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:onClick="flipCard"
+                android:text="Front Text"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:clickable="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:visibility="invisible"
+            android:id="@+id/backLayout"
+            android:layout_width="350dp"
+            android:layout_height="400dp">
+
+            <TextView
+                android:textSize="30sp"
+                android:id="@+id/backText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Back Text"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:clickable="true"/>
+
+        </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

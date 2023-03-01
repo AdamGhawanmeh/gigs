@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudiedAllFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="That's It!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="You have studied al the flashcards in this set!" />
+
+<Button
+android:layout_marginStart="10dp"
+android:layout_marginEnd="10dp"
+android:id="@+id/Finish"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Finish Learning"
+android:textColor="@color/black"
+android:background="@color/white"
+android:layout_marginTop="30dp"
+android:layout_gravity="center_horizontal"/>
+<Button
+android:layout_marginStart="10dp"
+android:layout_marginEnd="10dp"
+android:id="@+id/again"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="study again"
+android:textColor="@color/white"
+android:background="@color/green"
+android:layout_marginTop="20dp"
+android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

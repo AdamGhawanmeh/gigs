@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.schoolproject.gigs.homePage"
+    android:orientation="vertical"
+    android:id="@+id/drawerLayout">
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+
+        android:background="@drawable/bottom_nav_bar"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+        android:id="@+id/bottom_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        >
+
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    app:itemBackground="@android:color/transparent"
+    app:itemIconTint="@drawable/nav_selector"
+    app:itemTextColor="@drawable/nav_selector"
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+    android:id="@+id/bottom_navigation_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:menu="@menu/bottom_navigation_menu"
+    android:background="@android:color/transparent"
+    android:layout_marginEnd="16dp"/>
+
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--            android:id="@+id/bottom_navigation_bar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:background="@drawable/bottom_nav_bar"-->
+<!--            app:itemBackground="@null"-->
+<!--            app:itemIconTint="@drawable/nav_selector"-->
+<!--            app:itemTextColor="@drawable/nav_selector"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:menu="@menu/bottom_navigation_menu" >-->
+
+<!--    </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+
+
+
+
+
+<!--    <TextView-->
+
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Welcome"-->
+<!--        android:textSize="50sp"-->
+
+<!--        />-->
+<!--    <TextView-->
+<!--        android:id="@+id/name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Name"-->
+<!--        android:textSize="50sp"-->
+
+<!--        />-->
+<!--    <TextView-->
+<!--        android:id="@+id/email"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Email"-->
+<!--        android:textSize="50sp" />-->
+
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/signOut"-->
+<!--        android:text="sign out"-->
+<!--        android:background="@drawable/custom_input"-->
+<!--        />-->

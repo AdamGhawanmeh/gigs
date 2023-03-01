@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Gigs</string>
+    <string name="login">Login To Your Account</string>
+    <string name="emailaddress">e-mail address</string>
+    <string name="password">password</string>
+    <string name="ContinueWith">Or Continue With Google</string>
+    <string name="google">Google</string>
+    <string name="loginBtn">Login</string>
+    <string name="signup">Don\'t have an account? sign up</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="username">username</string>
+    <string name="cont">Continue</string>
+    <string name="create_new_account">create new account</string>
+    <string name="homePage">Home</string>
+    <string name="Profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="post_name">abcd</string>
+    <string name="term">Term</string>
+    <string name="definition">Definition</string>
+    <string name="Default">Default</string>
+
+    <string name="default_web_client_id" translatable="false">21269505311-tvoa9gvsmfd5pb5vqdshu8vfpmmkniim.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">21269505311</string>
+    <string name="google_api_key" translatable="false">AIzaSyCRDQ66AC9qmfAG9eZ7NBg28xHBCV817Qs</string>
+    <string name="google_app_id" translatable="false">1:21269505311:android:f2c4706258bc7eb34cbc2a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCRDQ66AC9qmfAG9eZ7NBg28xHBCV817Qs</string>
+    <string name="google_storage_bucket" translatable="false">gigs-1663613716509.appspot.com</string>
+    <string name="project_id" translatable="false">gigs-1663613716509</string>
+    <string name="Term">Term:</string>
+    <string name="title_activity_test_options">TestOptions</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>
