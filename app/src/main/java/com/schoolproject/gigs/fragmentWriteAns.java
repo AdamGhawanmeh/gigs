@@ -64,7 +64,7 @@ public class fragmentWriteAns extends Fragment {
       @Override
       public void onClick(View v) {
         String userAnswer = givenAnswer.getText().toString().trim();
-        if(userAnswer.equalsIgnoreCase(rightAns)) {
+        if(userAnswer.equalsIgnoreCase(rightAns.trim())) {
             db.collection("users")
                     .document(user.getUid())
                     .collection("Decks")
